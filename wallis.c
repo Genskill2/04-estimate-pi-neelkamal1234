@@ -22,5 +22,18 @@ int main(void) {
       abort();
     }
   }
+  
+  float wallis_pi(int x)
+  { float pi_value;
+      pi_value =1;
+   
+     for( int y=1; i<=y; y++)
+     { pi_value *= ((4*pow(y,2))/((4*pow(y,2))-1))
+      }
+   pi_value +=2;
+   return pi_value;
+  }
+   
+   
 }
 
