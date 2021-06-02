@@ -31,10 +31,10 @@ int main(void) {
    
      for( int n=1; n<=x ; n++)
      { float mainvalue = 1;
-       mainvalue = ((4*pow(n,2))/((4*pow(n,2))-1))
-       pi_value *= mainvalue;
+       mainvalue = ((4*pow(n,2))/((4*pow(n,2))-1));
+       pi_value =pi_value* mainvalue;
       }
-   pi_value *= 2;
+   pi_value = pi_value * 2;
    return pi_value;
   }
    
