@@ -30,7 +30,7 @@ int main(void) {
      for( int y=1; y<=x; y++)
      { pi_value *= ((4*pow(y,2))/((4*pow(y,2))-1))
       }
-   pi_value +=2;
+   pi_value *=2;
    return pi_value;
   }
    
