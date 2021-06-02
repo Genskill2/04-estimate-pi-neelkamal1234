@@ -24,7 +24,7 @@ int main(void) {
   }
 }
   
-  float wallis_pi(float x)
+  float wallis_pi(int x)
   { float pi_value;
       pi_value = 1.00 ;
    
