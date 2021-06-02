@@ -22,6 +22,7 @@ int main(void) {
       abort();
     }
   }
+}
   
   float wallis_pi(int x)
   { float pi_value;
@@ -35,5 +36,5 @@ int main(void) {
   }
    
    
-}
+
 
