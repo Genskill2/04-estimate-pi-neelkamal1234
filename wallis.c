@@ -27,7 +27,7 @@ int main(void) {
   { float pi_value;
       pi_value =1;
    
-     for( int y=1; i<=y; y++)
+     for( int y=1; y<=x; y++)
      { pi_value *= ((4*pow(y,2))/((4*pow(y,2))-1))
       }
    pi_value +=2;
