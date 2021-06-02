@@ -26,10 +26,10 @@ int main(void) {
   
   float wallis_pi(int x)
   { float pi_value;
-      pi_value = 1.0 ;
-   float mainvalue = 1.0;
+      pi_value = 1 ;
+   float mainvalue = 1;
    
-     for( int n=1; n<=x ; y++)
+     for( int n=1; n<=x ; n++)
      {mainvalue = ((4*pow(n,2))/((4*pow(n,2))-1))
        pi_value *= mainvalue;
       }
