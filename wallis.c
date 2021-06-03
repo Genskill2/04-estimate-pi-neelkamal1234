@@ -31,7 +31,7 @@ int main(void) {
    
      for( int n=1; n<=x ; n++)
      { 
-         pi_value =pi_value*(4.0*n*n)/(4.0*n*n)-1);
+         pi_value =pi_value*(4.0*n*n)/((4.0*n*n)-1);
        
       }
    pi_value = pi_value*2;
