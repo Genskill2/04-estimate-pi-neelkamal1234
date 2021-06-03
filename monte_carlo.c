@@ -43,16 +43,18 @@ float mc_pi(int n)
 {  int c =0;
    int s =0 ;
    int snew ;
-  float x,y ;  
-for( int i=0; i<=n :i++)
-{ x = frandom();
-  y = frandom();
- if( (pow(x,2)+pow(y,2)) <= 1)
- { c++;}
- else { s++;}
-}
-snew = s+c ;
-float pi;
- pi = (float)(4*(c/snew)) ;
- return pi;
+   float x;
+   float y ;
+ 
+   for( int i=0; i<=n ;i++)
+      { x = frandom();
+         y = frandom();
+          if( (pow(x,2)+pow(y,2)) <= 1)
+              { c++ ;}
+            else { s++ ;}
+       }
+   snew = s+c ;
+   float pi;
+   pi = (float)(4*(c/snew)) ;
+   return pi;
 }
