@@ -39,10 +39,10 @@ int main(void) {
   }
 }
 
-float mc_pi(int n)
+float mc_pi(int i)
 {  int c =0;
  
-   for( int i=0; i<=n ;i++)
+   for( int j=0; j<=i ;j++)
       {  float x = frandom();
          float y = frandom();
        
@@ -50,7 +50,6 @@ float mc_pi(int n)
                  c+=1 ;
           }
    
-   float cal;
-   cal = (float)(4*(c/n));
-   return cal;
+    c= c*4;
+   return (float)c/i;
 }
