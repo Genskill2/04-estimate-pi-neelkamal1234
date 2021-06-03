@@ -52,7 +52,7 @@ float mc_pi(int n)
               { c+=1 ;}
           }
    
-   float pi;
+   float pi_estimation;
    pi_estimation = (float)(4*(c/n));
    return pi_estimation;
 }
