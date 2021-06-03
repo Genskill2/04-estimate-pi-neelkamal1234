@@ -41,12 +41,10 @@ int main(void) {
 
 float mc_pi(int n)
 {  int c =0;
-   float x;
-   float y;
  
    for( int i=0; i<=n ;i++)
-      { x = frandom();
-         y = frandom();
+      {  float x = frandom();
+         float y = frandom();
        
           if( (x*x + y*y) <= 1)
               { c+=1 ;}
