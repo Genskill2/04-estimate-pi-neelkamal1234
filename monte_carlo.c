@@ -48,8 +48,8 @@ for( int i=0; i<=n :i++)
 { x = frandom();
   y = frandom();
  if( (pow(x,2)+pow(y,2)) <= 1)
- { c++}
- else { s++}
+ { c++;}
+ else { s++;}
 }
 snew = s+c ;
 float pi;
