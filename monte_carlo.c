@@ -41,8 +41,6 @@ int main(void) {
 
 float mc_pi(int n)
 {  int c =0;
-   int s =0 ;
-   int snew ;
    float x;
    float y ;
  
@@ -50,11 +48,11 @@ float mc_pi(int n)
       { x = frandom();
          y = frandom();
           if( (pow(x,2)+pow(y,2)) <= 1)
-              { c++ ;}
-            else { s++ ;}
+              { c +=1 ;}
+          
        }
-   snew = s+c ;
+   
    float pi;
-   pi = (float)(4*(c/snew)) ;
+   pi = (float)(4*(c/n)) ;
    return pi;
 }
