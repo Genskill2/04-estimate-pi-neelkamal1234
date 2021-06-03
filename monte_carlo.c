@@ -47,10 +47,10 @@ float mc_pi(int n)
          float y = frandom();
        
           if( (x*x + y*y) <= 1)
-              { c+=1 ;}
+                 c+=1 ;
           }
    
-   float pi_estimation;
-   pi_estimation = (float)(4*(c/n));
-   return pi_estimation;
+   float cal;
+   cal = (float)(4*(c/n));
+   return cal;
 }
