@@ -25,17 +25,17 @@ int main(void) {
 }
   
   float wallis_pi(int x)
-  { float pi_value;
-      pi_value = 1.0000 ;
+  { float y;
+      y = 1.0000 ;
    
    
      for( int n=1; n<=x ; n++)
      { 
-         pi_value =pi_value*(4.0*n*n)/((4.0*n*n)-1);
+         y = y*(4.0*n*n)/((4.0*n*n)-1);
        
       }
-   pi_value = pi_value*2;
-   return pi_value;
+   y = y*2;
+   return y;
   }
    
    
