@@ -53,6 +53,6 @@ for( int i=0; i<=n :i++)
 }
 snew = s+c ;
 float pi;
- pi = 4*(c/snew);
+ pi = (float)(4*(c/snew)) ;
  return pi;
 }
