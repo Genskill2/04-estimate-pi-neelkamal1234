@@ -42,17 +42,17 @@ int main(void) {
 float mc_pi(int n)
 {  int c =0;
    float x;
-   float y ;
+   float y;
  
    for( int i=0; i<=n ;i++)
       { x = frandom();
          y = frandom();
-          if( (pow(x,2)+pow(y,2)) <= 1)
-              { c +=1 ;}
-          
-       }
+       
+          if( (x*x + y*y) <= 1)
+              { c+=1 ;}
+          }
    
    float pi;
-   pi = (float)(4*(c/n)) ;
-   return pi;
+   pi_estimation = (float)(4*(c/n));
+   return pi_estimation;
 }
